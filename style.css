@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 400px;
+    font-family: "Overpass Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.menu2{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.head{
+    width: 100%;
+    height: 800px;
+    
+}
+
+.head img{
+    position: absolute;
+    z-index: 1;
+   
+}
+
+.head1{
+    padding-top: 380px;
+    padding-left: 666px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+}
+
+.main{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    display: grid;
+    gap: 20px;
+}
+
+.main1{
+    width: 100%;
+    height: 120px;
+    padding-top: 15px;
+
+}
+
+.main3,.main4{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.ab,.ac,.ad,.af,.bc,.bd,.bf,.br{
+    width: 100%;
+    height: 100%;
+
+}
+
+.btn.btn--black{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+}
+
+.main3 img,.main4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.order{
+    width: 100%;
+    height: 700px;
+    display: grid;
+    gap: 15px;
+}
+
+.order2{
+    width: 100%;
+    height: 800px;
+    display: grid;
+    gap: 25px;
+}
+
+
+.ord{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.al,.bl,.cl,.dl{
+    width: 300px;
+    height: 300px;
+}
+
+.ord img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn.btn--blue{
+    width: 200px;
+    height: 40px;
+}
+
+
+.border{
+    width: 86%;
+    height: 1200px;
+    padding-left: 10px;
+    padding-top: 20px;
+    display: grid;
+    gap: 30px;
+}
+
+.border1{
+    width: 100%;
+    height: 600px;
+    display: grid;
+    gap: 20px;
+    
+}
+
+.border2{
+    display: grid;
+    gap: 20px;
+}
+
+.border2 input{
+    height: 50px;
+}
+
+.btn.btn--1{
+    width: 200px;
+    height: 60px;
+    color: white;
+    background-color: black;
+}
